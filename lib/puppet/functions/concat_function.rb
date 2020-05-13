@@ -3,7 +3,7 @@ require 'puppet/type/file/group'
 require 'puppet/type/file/mode'
 require 'puppet/util/checksums'
 
-Puppet::Functions.create_function((:concat_function) do
+Puppet::Functions.create_function(:concat_function) do
   @doc = <<-DOC
     @summary
       Generates a file with content from fragments sharing a common unique tag.
