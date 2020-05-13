@@ -30,7 +30,7 @@ Puppet::Type.newtype(:array_fragment) do
     end
   end
 
-  newparam(:valuie) do
+  newparam(:value) do
     desc <<-DOC
       Supplies the content of the fragment. Note: You must supply either a content parameter or a source parameter. Valid options: a string
     DOC
